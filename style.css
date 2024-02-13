@@ -1,0 +1,49 @@
+button{
+    font-size: 40px;
+    height: fit-content;
+    border: none;
+    padding: 20px;
+    border-radius: 20px;
+    font-family: inherit;
+}
+
+span{
+    font-size: 300px;
+}
+
+.span2{
+    font-size: 30px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    gap: 60px;
+    font-family: "Roboto";
+}
+
+body div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#yes{
+    background-color: rgb(62, 230, 70);
+}
+
+#yes:hover{
+    background-color: rgb(52, 192, 59);
+}
+
+#no{
+    background-color: rgb(230, 62, 62);
+}
+#no:hover{
+    background-color: rgb(192, 52, 52);
+}
